@@ -1,0 +1,60 @@
+h6{
+    padding-left:15px
+}
+
+.ov{
+    color: grey;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:1rem
+}
+
+.up{
+    font-size:1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left:10px;
+    padding-bottom:10px
+}
+
+.profile-card{
+    padding-left:10px;
+ 
+    
+}
+
+.name{
+    font-size:1.8rem; 
+    font-weight:500;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    padding-top:60px;
+    text-transform: uppercase;
+    letter-spacing:2px
+
+}
+
+.metrics{
+    padding:5px;
+    color:#5cb85c  
+}
+
+.metric-container{
+    padding:15px;
+
+    text-align:center
+}
+
+.about-me{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:1.2rem;
+    padding-bottom:5px
+}
+
+.stats{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:1.2rem;
+    padding-bottom:5px
+}
