@@ -10,6 +10,7 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 import InputGroup from "react-bootstrap/InputGroup"
 import './Register.css'
 import { Link } from 'react-router-dom'
+import NavBar from "../Components/NavBar";
 
 
 const Register = props => {
@@ -18,8 +19,8 @@ const Register = props => {
 
   return (
     <div >
-    
-    <Container fluid className="header">
+    <NavBar/>
+    <Container fluid className="headers">
         <div className="ov">User</div>
         <div className="up">Log In / Sign Up</div>
     </Container>
