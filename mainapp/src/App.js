@@ -18,7 +18,6 @@ const App = props => {
 
     <div>
     <Switch>
-      <Route path="/register"/>
       <Route path="/chatroom" component={Chatroom} />
       <Route path="/" component={Dashboard} />
     </Switch>
