@@ -67,7 +67,7 @@ function Testimonials() {
 			<section>
 				<h2>Testimonials</h2>
 				<blockquote><p class="quotation"> 
-				  	This is such a good platofrm to bring different people together. </p>
+				  	This is such a good platform to bring different people together. </p>
 					<footer>— Anthony</footer>
 				</blockquote> 
 				<blockquote><p class="quotation"> 
