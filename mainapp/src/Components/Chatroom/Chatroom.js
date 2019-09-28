@@ -14,7 +14,7 @@ function Chatroom() {
   const [firstRun, setFirstRun] = useState(0);
 
   if(firstRun == 0){
-    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=57de0f2b75c949ec819d97fd50dc1308')
+    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=3844622ea493439093605eccf7f0c8d8')
     .then(res => res.json())
     .then((data) => {
         console.log(data);
@@ -49,6 +49,9 @@ function Chatroom() {
         });
       }}
         >+</button>
+        <br></br>
+        <h3>Upcoming Events</h3>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=c3RldmVucy5lZHVfdGoycGNobnEyNWEyNXNjNjYxM3R0bGRlaDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23A79B8E&amp;showTitle=1"></iframe>
     </div>
   );
 }

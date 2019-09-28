@@ -74,3 +74,11 @@ h3 span {
 .full {
     background-color: gray;
 }
+
+iframe{
+    border-width: 0px;
+    width: 800px; 
+    height: 600px; 
+    frameborder: 0px;
+    scrolling: "no";
+}
