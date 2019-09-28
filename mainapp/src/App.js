@@ -24,6 +24,7 @@ const App = props => {
       
       <Container>
         <Switch>
+        <Route path="/trending" component={Trending_News} />
         <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
           <Route path="/profile_overview" component={ProfileOverview} />
