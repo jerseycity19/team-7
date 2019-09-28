@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import {Switch, Redirect, Route} from 'react-router-dom';
+
+
+import Dashboard from './Components/Dashboard/Dashboard';
 import ReactDOM from "react-dom";
-import Dashboard from './Dashboard';
 import ProfileOverview from './Profile/Overview';
 import Register from './Profile/Register';
 import Login from './Profile/Login';
