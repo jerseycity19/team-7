@@ -8,7 +8,9 @@ function Trending_News() {
 
     const [articles, updateArticles] = useState([]);
 
-    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=3844622ea493439093605eccf7f0c8d8')
+    console.log(process.env.NEWS_API_KEY);
+
+    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=b7d22deef9054af9af9587d645a4a5be')
     .then(res => res.json())
     .then((data) => {
         console.log(data);
