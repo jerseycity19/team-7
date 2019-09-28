@@ -1,0 +1,59 @@
+.Trending_News {
+    text-align: center;
+}
+
+.Trending_News li {
+    display: grid;
+}
+
+.Trending_News h1 {
+    font-size: 3em;
+}
+
+p {
+    text-align:center;
+}
+
+p span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+p button, p input {
+    width: 10%;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 84, 84);
+}
+
+.Article {
+    background-color: white;
+    border-radius: 15px;
+    border: black 1px solid;
+    width: 100%;
+}
+
+.Article form {
+    display: inline;
+}
+
+.Article button, .Article input {
+    float: right;
+    vertical-align: baseline;
+}
+
+.talkButton {
+    background-color: #538dca;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.learnButton {
+    background-color: green;
+    border-radius: 0px;
+}
+
