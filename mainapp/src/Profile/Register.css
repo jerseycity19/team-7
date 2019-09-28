@@ -1,16 +1,18 @@
 .wrapper{
 
-background-color: #f8f8f8;
+    background-color: #f8f8f8
+    
+    }
+    
 
-}
-
-.login-button{
-    float:left;
-    color:#5cb85c
-}
 
 .submit-button{
-    float:right
+    float:right;
+
+}
+
+.register{
+    padding-top:1rem
 }
 
 .ov{
@@ -34,4 +36,15 @@ background-color: #f8f8f8;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center
+}
+
+.image-upload{
+    border:2px grey dashed;
+    text-align:center
+}
+
+.drop-image{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-top: 5px
 }
