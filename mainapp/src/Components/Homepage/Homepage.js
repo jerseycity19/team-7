@@ -1,19 +1,36 @@
 import React, {useEffect} from 'react';
+import ReactDOM from "react-dom";
 import NavBar from '../NavBar';
+import { Page } from 'tabler-react';
+import Image from 'react-bootstrap/Image';
 import img1 from '../../images/cover.jpg';
-import './Dashboard.css';
+import './Homepage.css';
+import { Header as THeader } from 'tabler-react';
 import img2 from '../../images/services.jpg';
 import img3 from '../../images/hangouts.png';
 
-const Dashboard = props => {
-    
-    useEffect(() => {
-        console.log(localStorage.getItem("loggedIn"));
-    }, []);
+const Homepage = props => {
+
+    const showTime = () => {
+        let place = String.fromCharCode(Math.floor(Math.random()*26+65));
+
+        let hour = Math.floor(Math.random()*12+1);
+        let min= Math.floor(Math.random()*60);
+        let minutes = min < 10 ? "0"+min : min;
+
+        let day = Math.floor(Math.random()*2) == 1 ? "PM" : "AM";
+        ReactDOM.render(place, document.getElementById('place'));
+        ReactDOM.render(hour+':'+minutes, document.getElementById('time'));
+        ReactDOM.render(day, document.getElementById('day'));
+    }
+
     return (
         <div>
+            <Page.Header title="Someone's Shoes" />
             <NavBar />
             <Header />
+            <THeader.H3>Current time in <span id='place'>A</span>: <span id='time'>12:30</span><span id='day'>PM</span></THeader.H3>
+            <Image src="https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg" onClick={showTime}/>
             <Services />
             <Testimonials />
             <Contact />
@@ -79,6 +96,4 @@ function Contact(){
 	)
 }
 
-
-
-export default Dashboard;
+export default Homepage;
