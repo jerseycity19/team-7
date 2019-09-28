@@ -89,8 +89,8 @@ function Contact(){
 		<div class="Contact">
 			<section>
 				<h2>Contact Us!</h2>
-				<a href="#" > <p> <span class="button"> Facebook </span> </p> </a>
-				<a href="#"> <p> <span class="button"> Twitter </span> </p> </a>
+				<a href="https://www.facebook.com/globalnomadsgroup/" target="_blank"> <p> <span class="button"> Facebook </span> </p> </a>
+				<a href="https://twitter.com/global_nomads?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <p> <span class="button"> Twitter </span> </p> </a>
 			</section>
 		</div>
 	)
