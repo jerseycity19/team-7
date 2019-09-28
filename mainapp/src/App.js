@@ -19,8 +19,6 @@ const App = props => {
       <Route path="/" component={Dashboard} />
     </Switch>
 
-    <ProfileOverview></ProfileOverview>
-
     </div>
   );
 }
