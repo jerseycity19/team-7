@@ -4,7 +4,7 @@
 
 .Chatroom li {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 7fr 1fr 1fr;
     padding-left: 50px;
 }
 
@@ -26,6 +26,7 @@ p button {
     background: white;
     border: 1px solid black;
     border-radius: 50px;
+    margin-bottom: 20px;
 }
 
 .room {
