@@ -4,17 +4,14 @@ h6{
 
 .ov{
     color: grey;
-    padding-top:10px;
-    padding-left:10px;
     font-size:1rem
 }
 
 .up{
     font-size:1.2rem;
     font-weight: 500;
-    letter-spacing: 1px;
-    padding-left:10px;
-    padding-bottom:10px
+
+
 }
 
 .profile-card{

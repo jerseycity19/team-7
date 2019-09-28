@@ -1,0 +1,50 @@
+.wrapper{
+
+    background-color: #f8f8f8
+    
+    }
+    
+
+
+.submit-button{
+    float:right;
+
+}
+
+.register{
+    padding-top:1rem
+}
+
+.ov{
+    color: grey;
+
+    font-size:1rem
+}
+
+.up{
+    font-size:1.2rem;
+    font-weight: 500;
+
+}
+
+.header{
+    background-color: #f8f8f8
+}
+
+.jumbotron{
+    background-image: url("https://www.vancouvertrails.com/images/hikes/panorama-ridge.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.image-upload{
+    border:2px grey dashed;
+    text-align:center
+}
+
+.drop-image{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-top: 5px
+}

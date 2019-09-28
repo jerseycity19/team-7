@@ -1,13 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Nav } from "tabler-react";
+import React, {useEffect} from 'react';
+import NavBar from './Components/NavBar';
 
 const Dashboard = props => {
+    
+    useEffect(() => {
+        console.log(localStorage.getItem("loggedIn"));
+    }, []);
     return (
-        <Nav>
-            <Nav.Item value="Dashboard" icon="globe" to="/">
-            </Nav.Item>
-        </Nav>
+        <div>
+            <NavBar />
+        </div>
     )
 };
 
