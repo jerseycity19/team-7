@@ -1,0 +1,29 @@
+.wrapper{
+margin-top: 10rem;
+background-color: #f8f8f8
+
+}
+
+.login-button{
+    float:left
+}
+
+.submit-button{
+    float:right
+}
+
+.ov{
+    color: grey;
+
+    font-size:1rem
+}
+
+.up{
+    font-size:1.2rem;
+    font-weight: 500;
+
+}
+
+.header{
+    background-color: #f8f8f8
+}

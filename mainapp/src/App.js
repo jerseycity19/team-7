@@ -7,7 +7,9 @@ import Chatroom from './Components/Chatroom/Chatroom';
 
 import "tabler-react/dist/Tabler.css";
 import './App.css';
-import ProfileOverview from './Profile/Overview';
+
+
+import Login from './Profile/Login';
 
 const App = props => {
   return (
@@ -18,8 +20,7 @@ const App = props => {
       <Route path="/" component={Dashboard} />
     </Switch>
 
-    <ProfileOverview></ProfileOverview>
-
+    <Login></Login>
     </div>
   );
 }
