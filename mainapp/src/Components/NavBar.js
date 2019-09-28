@@ -3,10 +3,12 @@ import { Nav } from "tabler-react";
 
 const NavBar = props => {
     return (
-        <Nav>
-            <Nav.Item value="Dashboard" icon="globe" to="/" />
-            <Nav.Item value="Profile" icon="globe" to="/profile_overview" />
-        </Nav>
+        <div>
+            <Nav>
+                <Nav.Item value="Dashboard" icon="globe" to="/" />
+                <Nav.Item value="Chatroom" to='/chatroom' />
+            </Nav>
+        </div>
     )
 };
 
