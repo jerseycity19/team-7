@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 import './Trending_News.css';
 import NavBar from '../NavBar'
+import LoginControl from '../LoginControl';
 
 function Trending_News() {
 
@@ -22,7 +23,7 @@ function Trending_News() {
 
     return (
         <div className="Trending_News">
-            <NavBar />
+            <LoginControl />
             <h1>What's Happening In the World</h1>
             <ul id="articles_list">
                 {articles.map(i => {
