@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import Avatar from 'react-avatar';
+import NavBar from '../Components/NavBar';
 
 import './Overview.css';
 
@@ -12,6 +13,7 @@ const Overview = props => {
     return (
 
     <div>
+        <NavBar />
         <div className="ov">Overview</div>
         <div className="up">User Profile</div>
 
