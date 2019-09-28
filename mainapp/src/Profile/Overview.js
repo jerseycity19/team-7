@@ -37,7 +37,7 @@ const Overview = props => {
                         <Col className="metric-container">
                             <div className="stats">Statistics</div>
                             <div className="metrics">Total Hours Spent on Chat:</div> <h6>15</h6>
-                            <div className="metrics">Total Countries Connected to:</div> <h6>5</h6>
+                            <div className="metrics">Total Countries Connected to:</div> <h6>13</h6>
                             </Col>
 
                     </Row>
@@ -51,7 +51,9 @@ const Overview = props => {
                         <div className="metrics">Location:</div> <h6>USA</h6>
                         <div className="metrics">Language: </div> <h6>English</h6>
                     </Col>
-                    <Col></Col>
+                    <Col>
+                    <Image src="https://freerangestock.com/sample/81449/world-map-with-place-markers--globalization-concept.jpg"/>
+                    </Col>
                     </Row>
                     </div>
                     </Card.Body>
