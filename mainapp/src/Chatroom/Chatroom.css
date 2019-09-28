@@ -1,6 +1,6 @@
 li {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr;
     padding-left: 50px;
 }
 
@@ -10,6 +10,18 @@ p {
 
 p span {
     vertical-align: -webkit-baseline-middle;
+}
+
+p button {
+    width: 20%;
+    border: none;
+}
+
+.addRoom {
+    color: green;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50px;
 }
 
 .room {
@@ -31,4 +43,8 @@ p span {
 .roomList {
     list-style-type: none;
     display: inline;
+}
+
+.Chatroom {
+    text-align: center;
 }
