@@ -22,7 +22,6 @@ const App = props => {
       <Route path="/" component={Dashboard} />
     </Switch>
 
-    <Login></Login>
     </div>
   );
 }
