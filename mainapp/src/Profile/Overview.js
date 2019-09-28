@@ -45,7 +45,8 @@ const Overview = props => {
                     <Col></Col>
                     <Col>
                         <div className="about-me">About Me</div>
-                        <div className="metrics">Gender:</div> <h6>19</h6>
+                        <div className="metrics">Gender:</div> <h6>Male</h6>
+                        <div className="metrics">Age:</div> <h6>19</h6>
                         <div className="metrics">Location:</div> <h6>USA</h6>
                         <div className="metrics">Language: </div> <h6>English</h6>
                     </Col>
