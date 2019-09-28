@@ -12,20 +12,21 @@ import './App.css';
 
 
 import Login from './Profile/Login';
+import Container from 'tabler-react';
 
 const App = props => {
 
   
   return (
     <div>
-    <Switch>
-      <Route path="/profile_overview" component={ProfileOverview} />
-      <Route path="/chatroom" component={Chatroom} />
-      <Route path="/trending" component={Trending_News} />
-      <Route path="/" component={Dashboard} />
-    </Switch>
-
-    <ProfileOverview></ProfileOverview>
+    <Container>
+      <Switch>
+        <Route path="/profile_overview" component={ProfileOverview} />
+        <Route path="/chatroom" component={Chatroom} />
+        <Route path="/trending" component={Trending_News} />
+        <Route path="/" component={Dashboard} />
+      </Switch>
+    </Container>
     </div>
 
   );
