@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col'
 import Avatar from 'react-avatar';
 import Container from "react-bootstrap/Container"
 import NavBar from '../Components/NavBar';
+import LoginControl from '../Components/LoginControl'
 
 import './Overview.css';
 
@@ -14,8 +15,8 @@ const Overview = props => {
     return (
 
     <div>
-        <NavBar />
-        <Container fluid className="header">
+        <LoginControl/>
+        <Container fluid className="headers">
             <div className="ov">Overview</div>
             <div className="up">User Profile</div>
         </Container>
