@@ -55,7 +55,7 @@ class LoginControl extends React.Component {
       return (
       <div>
         <Nav>
-            <Nav.Item value="Dashboard" icon="globe" to="/" />
+            <Nav.Item value="Home" icon="globe" to="/" />
             <Nav.Item value="Chatroom" to='/chatroom' />
             <Nav.Item value="Trending News" to='/trending' />
             <Nav.Item value="Profile" to='/profile_overview' />
@@ -86,7 +86,7 @@ class LoginControl extends React.Component {
     return (
         <div>
             <Nav>
-                <Nav.Item value="Dashboard" icon="globe" to="/" />
+                <Nav.Item value="Home" icon="globe" to="/" />
              
                 <Nav.Item value="Trending News" to='/trending' />
                 <Nav.Item />
