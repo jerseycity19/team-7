@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import Avatar from 'react-avatar';
+import Container from "react-bootstrap/Container"
 import NavBar from '../Components/NavBar';
 
 import './Overview.css';
@@ -13,9 +14,10 @@ const Overview = props => {
     return (
 
     <div>
-        <NavBar />
-        <div className="ov">Overview</div>
-        <div className="up">User Profile</div>
+        <Container fluid className="header">
+            <div className="ov">Overview</div>
+            <div className="up">User Profile</div>
+        </Container>
 
         <Row className="profile-row">
             <Col xl={10}>
@@ -43,7 +45,8 @@ const Overview = props => {
                     <Col></Col>
                     <Col>
                         <div className="about-me">About Me</div>
-                        <div className="metrics">Gender:</div> <h6>19</h6>
+                        <div className="metrics">Gender:</div> <h6>Male</h6>
+                        <div className="metrics">Age:</div> <h6>19</h6>
                         <div className="metrics">Location:</div> <h6>USA</h6>
                         <div className="metrics">Language: </div> <h6>English</h6>
                     </Col>
