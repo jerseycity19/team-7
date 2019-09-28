@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Switch, Redirect, Route} from 'react-router-dom';
 
 
@@ -12,10 +12,13 @@ import './App.css';
 import Login from './Profile/Login';
 
 const App = props => {
+
+  
   return (
 
     <div>
     <Switch>
+      <Route path="/register"/>
       <Route path="/chatroom" component={Chatroom} />
       <Route path="/" component={Dashboard} />
     </Switch>

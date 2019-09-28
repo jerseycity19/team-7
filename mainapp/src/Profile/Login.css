@@ -1,11 +1,12 @@
 .wrapper{
-margin-top: 10rem;
+
 background-color: #f8f8f8
 
 }
 
 .login-button{
-    float:left
+    float:left;
+    color:#5cb85c
 }
 
 .submit-button{
@@ -26,4 +27,11 @@ background-color: #f8f8f8
 
 .header{
     background-color: #f8f8f8
+}
+
+.jumbotron{
+    background-image: url("https://www.vancouvertrails.com/images/hikes/panorama-ridge.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
 }
