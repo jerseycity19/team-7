@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Switch, Redirect, Route} from 'react-router-dom';
 
 import Dashboard from './Dashboard';
@@ -9,7 +9,12 @@ import Trending_News from './Components/Trending_News/Trending_News'
 import "tabler-react/dist/Tabler.css";
 import './App.css';
 
+
+import Login from './Profile/Login';
+
 const App = props => {
+
+  
   return (
     <div>
     <Switch>
