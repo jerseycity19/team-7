@@ -4,12 +4,12 @@ import NavBar from '../NavBar';
 import { Page } from 'tabler-react';
 import Image from 'react-bootstrap/Image';
 import img1 from '../../images/cover.jpg';
-import './Dashboard.css';
+import './Homepage.css';
 import { Header as THeader } from 'tabler-react';
 import img2 from '../../images/services.jpg';
 import img3 from '../../images/hangouts.png';
 
-const Dashboard = props => {
+const Homepage = props => {
 
     const showTime = () => {
         let place = String.fromCharCode(Math.floor(Math.random()*26+65));
@@ -96,4 +96,4 @@ function Contact(){
 	)
 }
 
-export default Dashboard;
+export default Homepage;

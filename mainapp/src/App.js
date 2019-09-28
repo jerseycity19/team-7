@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Switch, Redirect, Route} from 'react-router-dom';
 
 
-import Dashboard from './Components/Dashboard/Dashboard';
+import Homepage from './Components/Homepage/Homepage';
 import ReactDOM from "react-dom";
 import ProfileOverview from './Profile/Overview';
 import Register from './Profile/Register';
@@ -28,7 +28,7 @@ const App = props => {
           <Route path="/login" component={Login} />
           <Route path="/profile_overview" component={ProfileOverview} />
           <Route path="/chatroom" component={Chatroom} />
-          <Route path="/" component={Dashboard} />
+          <Route path="/" component={Homepage} />
         </Switch>
       </Container>
 
