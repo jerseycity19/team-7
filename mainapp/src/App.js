@@ -4,6 +4,7 @@ import {Switch, Redirect, Route} from 'react-router-dom';
 import Dashboard from './Dashboard';
 import ProfileOverview from './Profile/Overview';
 import Chatroom from './Components/Chatroom/Chatroom';
+import { Container } from 'tabler-react';
 
 import "tabler-react/dist/Tabler.css";
 import './App.css';
@@ -11,11 +12,13 @@ import './App.css';
 const App = props => {
   return (
     <div>
-      <Switch>
-        <Route path="/profile_overview" component={ProfileOverview} />
-        <Route path="/chatroom" component={Chatroom} />
-        <Route path="/" component={Dashboard} />
-      </Switch>
+      <Container>
+        <Switch>
+          <Route path="/profile_overview" component={ProfileOverview} />
+          <Route path="/chatroom" component={Chatroom} />
+          <Route path="/" component={Dashboard} />
+        </Switch>
+      </Container>
     </div>
   );
 }
