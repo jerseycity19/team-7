@@ -1,13 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Nav } from "tabler-react";
+import NavBar from './Components/NavBar';
 
 const Dashboard = props => {
     return (
-        <Nav>
-            <Nav.Item value="Dashboard" icon="globe" to="/">
-            </Nav.Item>
-        </Nav>
+        <div>
+            <NavBar />
+        </div>
     )
 };
 

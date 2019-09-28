@@ -1,0 +1,50 @@
+li {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding-left: 50px;
+}
+
+p {
+    text-align:center;
+}
+
+p span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+p button {
+    width: 20%;
+    border: none;
+}
+
+.addRoom {
+    color: green;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.room {
+    background-color: white;
+    border-radius: 15px;
+    border: black 1px solid;
+    width: 100%;
+}
+
+.room button {
+    float: right;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    background-color: #538dca;
+    vertical-align: baseline;
+}
+
+.roomList {
+    list-style-type: none;
+    display: inline;
+}
+
+.Chatroom {
+    text-align: center;
+}
