@@ -14,6 +14,7 @@ const Overview = props => {
     return (
 
     <div>
+        <NavBar />
         <Container fluid className="header">
             <div className="ov">Overview</div>
             <div className="up">User Profile</div>
