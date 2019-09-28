@@ -87,8 +87,9 @@ class LoginControl extends React.Component {
         <div>
             <Nav>
                 <Nav.Item value="Dashboard" icon="globe" to="/" />
-                <Nav.Item value="Chatroom" to='/chatroom' />
+             
                 <Nav.Item value="Trending News" to='/trending' />
+                <Nav.Item />
                 <Nav.Item />
                 <Nav.Item />
                 <Nav.Item />
