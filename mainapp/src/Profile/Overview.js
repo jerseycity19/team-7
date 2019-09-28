@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import Avatar from 'react-avatar';
 import Container from "react-bootstrap/Container"
+import NavBar from '../Components/NavBar';
 
 import './Overview.css';
 
