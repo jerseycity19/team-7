@@ -49,9 +49,19 @@ function Testimonials() {
 		<div class="Testimonials">
 			<section>
 				<h2>Testimonials</h2>
-				<p>"This is the best platform ever to talk to people around the world"</p>
-				<p>"I could not believe the people I have been able to meet because of this platform"</p>
-				<p>"I really see my self using this in the future"</p>
+				<blockquote><p class="quotation"> 
+				  	This is such a good platofrm to bring different people together. </p>
+					<footer>— Anthony</footer>
+				</blockquote> 
+				<blockquote><p class="quotation"> 
+				  	I could not believe the people I have been able to meet because of this platform </p>
+					<footer>— Tracey </footer>
+				</blockquote> 
+				<blockquote><p class="quotation"> 
+				  	I really see myself using this in the future.</p>
+					<footer>— Morgan</footer>
+				</blockquote> 
+				
 			</section>
 		</div>
 	)
@@ -62,8 +72,8 @@ function Contact(){
 		<div class="Contact">
 			<section>
 				<h2>Contact Us!</h2>
-				<p> <span class="button"> Facebook </span> </p>
-				<p> <span class="button"> Twitter </span> </p>
+				<a href="#" > <p> <span class="button"> Facebook </span> </p> </a>
+				<a href="#"> <p> <span class="button"> Twitter </span> </p> </a>
 			</section>
 		</div>
 	)
