@@ -21,8 +21,6 @@ const NavBar = props => {
                 <Nav.Item />
                 <Nav.Item />
                 <Nav.Item />
-                <Nav.Item />
-                <Nav.Item />
                 <AccountDropdown
                     avatarURL="./demo/faces/female/25.jpg"
                     name="Jane Pearson"
