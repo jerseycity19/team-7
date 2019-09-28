@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 import './Chatroom.css';
 import NavBar from '../NavBar'
 
-const trendingTopics = ["News1", "News2", "News3", "News4", "News5", "News6", "News7"];
 
 function Chatroom() {
-  const [count, setCount] = useState([]);
+  const [trendingTopics, setTrendingTopics] = useState(["News1", "News2", "News3", "News4", "News5", "News6", "News7"]);
+  console.log(trendingTopics.length);
   return (
     <div className="Chatroom">
       <NavBar />
@@ -16,15 +16,17 @@ function Chatroom() {
             })
           }
       </ul>
-      <button type="button" className="addRoom">+</button>
+      <button className="addRoom" onClick={() => {
+        trendingTopics.push("test"); 
+        setTrendingTopics(() => {
+          var temp = trendingTopics.slice();
+          return temp;
+        })
+      }}
+        >+</button>
     </div>
   );
 }
-
-function submitButtonStyle(_this) {
-  _this.style.backgroundColor = "red";
-}
-
 
 class Room extends React.Component {
   constructor(props) {
