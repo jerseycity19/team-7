@@ -37,7 +37,8 @@ function Trending_News() {
 function Article(props){
     return (
         <li>
-            <p className="Article"><span>{props.title}</span><button type="button" className="talkButton">Talk!</button><form action={props.link}>
+            <p className="Article"><span>{props.title}</span><form action={'http://hangouts.google.com/start'}>
+            <input type="submit" className="talkButton" value="Talk!" /></form><form action={props.link}>
             <input type="submit" className="learnButton" value="Learn!" /></form></p>
       </li>
     ); 
