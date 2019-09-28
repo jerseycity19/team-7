@@ -5,6 +5,7 @@ import Dashboard from './Dashboard';
 import ProfileOverview from './Profile/Overview';
 import Register from './Profile/Register';
 import Chatroom from './Components/Chatroom/Chatroom';
+import { Container } from 'tabler-react';
 import Trending_News from './Components/Trending_News/Trending_News'
 
 import "tabler-react/dist/Tabler.css";
@@ -12,7 +13,6 @@ import './App.css';
 
 
 import Login from './Profile/Login';
-import Container from 'tabler-react';
 
 const App = props => {
 
