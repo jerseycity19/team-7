@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Switch, Redirect, Route} from 'react-router-dom';
 
-import Dashboard from './Dashboard';
+import Dashboard from './Components/Dashboard/Dashboard';
 import ProfileOverview from './Profile/Overview';
 import Chatroom from './Components/Chatroom/Chatroom';
 import Trending_News from './Components/Trending_News/Trending_News'

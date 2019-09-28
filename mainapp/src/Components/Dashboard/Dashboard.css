@@ -1,0 +1,56 @@
+h1,h2 {
+	text-align: center;
+	font-weight: bold;
+}
+
+section h2 {
+	margin-top: 20px;
+}
+
+.Services {
+	display: grid;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.Services section {
+	background-color: #E8E8E8;
+	margin:0 auto;
+}
+
+.Services img {
+	border-radius: 70px;
+	padding: 20px;
+}
+
+.Services span img {
+	width: 250px;
+	height: 250px;
+	margin-top: 40px;
+	float: right;
+	display: inline;
+}
+
+.f {
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	width: 60px;
+}
+
+.Contact p {
+	font-size: 40px;
+	background-color: blue;
+	width: 50%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	
+}
+
+
+
+
+
