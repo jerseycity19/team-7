@@ -57,7 +57,7 @@ const LoginPage = props => {
                   </Button>
                 </Col>
                 <Col className="p-1px">
-                  <Button className="login-button" variant="outline-success" type="submit">
+                  <Button className="login-button" variant="outline-success" type="submit" onclick={()=>localStorage.setItem('loggedIn', true)}>
                   <Link className="login-button" to='/profile_overview'>Login</Link>
                   </Button>
                 </Col>
