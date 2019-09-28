@@ -1,4 +1,8 @@
-li {
+.Chatroom h1 {
+    font-size: 3em;
+}
+
+.Chatroom li {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
     padding-left: 50px;
@@ -36,8 +40,13 @@ p button {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     padding: 10px;
-    background-color: #538dca;
     vertical-align: baseline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 
 .roomList {
@@ -47,4 +56,20 @@ p button {
 
 .Chatroom {
     text-align: center;
+}
+
+h3 span {
+    color: rgb(0, 200, 0);
+}
+
+.empty {
+    background-color: #538dca;
+}
+
+.occupied {
+    background-color: green;
+}
+
+.full {
+    background-color: gray;
 }

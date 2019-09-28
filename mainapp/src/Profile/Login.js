@@ -9,6 +9,8 @@ import Image from 'react-bootstrap/Image';
 import Jumbotron from "react-bootstrap/Jumbotron"
 import './Login.css'
 import { Link } from 'react-router-dom'
+import NavBar from '../Components/NavBar';
+
 
 
 const LoginPage = props => {
@@ -17,7 +19,7 @@ const LoginPage = props => {
 
   return (
     <div >
-    
+    <NavBar/>
     <Container fluid className="header">
         <div className="ov">User</div>
         <div className="up">Log In / Sign Up</div>
@@ -56,7 +58,7 @@ const LoginPage = props => {
                 </Col>
                 <Col className="p-1px">
                   <Button className="login-button" variant="outline-success" type="submit">
-                  <Link className="login-button" to='/profile'>Login</Link>
+                  <Link className="login-button" to='/profile_overview'>Login</Link>
                   </Button>
                 </Col>
               </Row>
