@@ -1,10 +1,12 @@
 import React from 'react';
 
 import './Chatroom.css';
+import NavBar from '../NavBar'
 
 function Chatroom() {
   return (
     <div className="Chatroom">
+      <NavBar />
       <ul className="roomList">
         <Room></Room>
         <Room></Room>
