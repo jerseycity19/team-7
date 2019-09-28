@@ -32,7 +32,7 @@ function Chatroom() {
 
   return (
     <div className="Chatroom">
-      <LoginControl />
+      <LoginControl/>
       <h1>Get the conversation started!</h1>
       <h3>Number of users online: <span>12</span></h3>
       <ul className="roomList">
@@ -71,7 +71,7 @@ class Room extends React.Component {
   render() {
     return(
       <div>  
-        <LoginControl/>
+
         <li>
             <p className="room"><span>{this.state.roomName}</span><button className = {this.state.roomCount == 0 ? "empty" : this.state.roomCount > 5 ? "full" : "occupied"} type="button" onClick= {() =>{
                   if(this.state.roomCount <= 5) {
