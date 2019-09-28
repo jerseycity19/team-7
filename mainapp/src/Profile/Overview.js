@@ -53,8 +53,8 @@ const Overview = props => {
                         <div className="metrics">Location:</div> <h6>USA</h6>
                         <div className="metrics">Language: </div> <h6>English</h6>
                     </Col>
-                    <Col>
-                    <Image src="https://freerangestock.com/sample/81449/world-map-with-place-markers--globalization-concept.jpg"/>
+                    <Col className="p-a-0 m-a-0">
+                    <Image src="https://cdn.zeemaps.com/images/base/map.png"/>
                     </Col>
                     </Row>
                     </div>
