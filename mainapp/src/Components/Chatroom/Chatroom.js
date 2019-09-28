@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import './Chatroom.css';
 import NavBar from '../NavBar'
-import Popup from '../Popup';
 
 function myFunction() {
   var feedback = prompt("What Topic would you like to open up for discussion?", "");
